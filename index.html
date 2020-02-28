@@ -1,12 +1,60 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Collab</title>
-    </head>
-    <body>
-        
-        <input type="text" id="firstNum" placeholder="First Number" />
-        <br />
-        <input type="text" id="secNum" placeholder="Second Number" />
+<style>
 
-    </body>
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 18px;
+  background-color: #f2f2f2;
+  width: 70%;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Adding, Subtracting & Multiplying Numbers</h3>
+
+<div>
+  <form>
+    <label>First Number</label> <br />
+    <input type="text" id="firstNum" placeholder="First Number">
+
+    <br /><br />
+
+    <label>Last Number</label> <br />
+    <input type="text" id="secNum" placeholder="Second Number">
+
+    <br /> <br />
+
+    <input type="submit" id="btnAdd" value="Click to Add"> <br />
+    <input type="submit" id="btnSub" value="Click to Subtract"> <br />
+    <input type="submit" id="btnMul" value="Click to Multiply"> <br />
+  </form>
+</div>
+
+</body>
 </html>
