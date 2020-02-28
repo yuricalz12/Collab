@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+   <head>
+        <title>Collab</title>
+        <script src="addition.js"></script>
+        <script src="subtract.js"></script>
+        <script src="multiply.js"></script>
+    </head>
 <style>
 
 input[type=text], select {
@@ -51,11 +57,13 @@ div {
 
     <br /> <br />
 
-    <input type="submit" id="btnAdd" value="Click to Add"> <br />
-    <input type="submit" id="btnSub" value="Click to Subtract"> <br />
-    <input type="submit" id="btnMul" value="Click to Multiply"> <br />
+    <input type="submit" id="btnAdd" onclick="addition()" value="Click to Add"> <br />
+    <input type="submit" id="btnSub" onclick="sub()" value="Click to Subtract"> <br />
+    <input type="submit" id="btnMul" onclick="multiply()" value="Click to Multiply"> <br />
   </form>
 </div>
+  <div id="display"></div>
 
 </body>
+
 </html>
