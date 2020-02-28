@@ -1,13 +1,25 @@
 <html>
     <head>
         <title>Collab</title>
+        <script src="addition.js"></script>
+        <script src="subtract.js"></script>
+        <script src="multiply.js"></script>
     </head>
     <body>
 
         <input type="text" id="firstNum" placeholder="First Number" />
         <br />
         <input type="text" id="secNum" placeholder="Second Number" />
+        <br/>
+        <input type="submit" onclick="addition()" value="Add">
+        <br/>
+        <input type="submit" onclick="sub()" value="Subtract">
+        <br/>
+        <input type="submit" onclick="multiply()" value="Multiply">
 
+        <div id="display">
+
+        </div>
     </body>
 
 

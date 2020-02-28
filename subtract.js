@@ -1,5 +1,6 @@
 function sub(){
-    first = document.getElementById('first').value;
-    second = document.getElementById('second').value;
+    first = parseInt(document.getElementById('firstNum').value);
+    second = parseInt(document.getElementById('secNum').value);
     result = first - second;
+    document.getElementById('display').innerHTML = "Result it: " + result;
 }

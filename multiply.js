@@ -1,5 +1,7 @@
 function multiply(){
-    var first = document.getElementById('firstNum').value;
-    var second = document.getElementById('secNum').value;
-    return first*second;
+    var first = parseInt(document.getElementById('firstNum').value);
+    var second = parseInt(document.getElementById('secNum').value);
+    var result = first*second;
+    document.getElementById('display').innerHTML = "Result it: " + result;
+
 }
